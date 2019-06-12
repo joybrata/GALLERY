@@ -1,16 +1,16 @@
 
 <div class="nav-bar-header">
   <br>
-  <a [routerLink]="['/']" routerLinkActive="router-link-active" >Gallery'69</a>
+  <a [routerLink]="['/']" routerLinkActive="router-link-active" (click)="selectedFunction(1)" >Gallery'69</a>
   <br>
 </div>
 <div class="nav-bar-menu">
   <br><br><br><br><br><br><br><br><br><br>
   <ul>
-    <li><a [routerLink]="['/']" routerLinkActive="router-link-active" >Home</a></li>
+    <li [class.selected]="homeSelected"><a [routerLink]="['/']" routerLinkActive="router-link-active" (click)="selectedFunction(1)" >Home</a></li>
     <br>
-    <li><a [routerLink]="['/artists']" routerLinkActive="router-link-active" >Artists</a></li>
+    <li [class.selected]="artistsSelected"><a [routerLink]="['/artists']" routerLinkActive="router-link-active" (click)="selectedFunction(2)" >Artists</a></li>
     <br>
-    <li><a [routerLink]="['/about']" routerLinkActive="router-link-active" >About</a></li>
+    <li [class.selected]="aboutSelected"><a [routerLink]="['/about']" routerLinkActive="router-link-active" (click)="selectedFunction(3)" >About</a></li>
   </ul>
 </div>

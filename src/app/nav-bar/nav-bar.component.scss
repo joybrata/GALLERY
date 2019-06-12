@@ -1,10 +1,10 @@
 @font-face {
-  font-family: myFirstFont;
+  font-family: Century-Gothic-Bold;
   src: url(D:\Project\angular\University_Project\gallery\src\app\nav-bar\CenturyGothicBold.ttf.ttf);
 }
 
 .nav-bar-header{
-  font-family: myFirstFont;
+  font-family: Century-Gothic-Bold;
   font-size: 30px;
   text-align: center;
   a {
@@ -17,15 +17,22 @@
   display: table;
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
   ul{
     li{
       list-style: none;
+      padding: 10px;
+
+      //border-left: 5px solid red;
       a{
-        background-color: bisque;
         text-decoration: none;
         font-size: 16px;
+        color: #565656;
       }
     }
   }
 }
 
+.selected {
+  border-left: 5px solid red;
+}
