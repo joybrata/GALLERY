@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Century+Gothic');
+
+
+.navBar
+{
+  margin: 0%;
+  padding: 0px;
+  font-family: 'Century Gothic';
+  height: 100%;
+  width: 325px;
+  background-color: aquamarine;
+}
+
+.navBarHeader {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align-last: center;
+  background-color: antiquewhite;
+  height: 20%;
+  a {
+    text-decoration: none;
+  }
+}
+
+.navBarMenu {
+}
