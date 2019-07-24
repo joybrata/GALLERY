@@ -1,0 +1,27 @@
+
+.artists-container {
+  margin-top: 68px;
+  margin-left: 73px;
+  color: #565656;
+  .heading {
+    font-family: calibri;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  ul{
+
+    li {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 25px;
+      font-weight: 500;
+
+      a {
+        text-decoration: none;
+        color: #565656;
+      }
+    }
+  }
+}

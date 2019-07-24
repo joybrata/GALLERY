@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
-import { ArtistsComponent } from './artists/artists.component';
+import { ArtistsComponent, DemoNumber } from './artists/artists.component';
 import { AboutComponent } from './about/about.component';
 
 @NgModule({
@@ -18,6 +18,7 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     ArtistsComponent,
     AboutComponent,
+    DemoNumber,
     //SideNavBarComponent  //first created side nav bar
   ],
   imports: [
