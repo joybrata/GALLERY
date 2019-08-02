@@ -6,7 +6,10 @@
   <p class="heading">Artists</p>
   <ul>
     <li *ngFor='let key of 26 | demoNumber'>
-      <a href="">{{key}}</a>
+      <a id={{key}} [routerLink]="" (click)="selectKey(key)">{{key}}</a>
     </li>
   </ul>
+  <div class="">
+    <app-arttist-list-container [serKey] = "ser"></app-arttist-list-container>
+  </div>
 </div>

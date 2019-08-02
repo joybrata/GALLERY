@@ -1,0 +1,12 @@
+<p>
+  art-view works! {{art_name}}
+</p>
+<div *ngFor="let artist of artist_data">
+  <div *ngFor="let art of artist.art">
+    <div *ngIf="art.art_name == art_name">
+        {{artist.artist_name}} / {{art.art_name}}
+        <img [src]="art.pic_url" [alt]="art.art_name"> <br>
+        {{art.about_pic}}
+    </div>
+  </div>
+</div>

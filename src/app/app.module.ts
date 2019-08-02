@@ -11,6 +11,13 @@ import { HomeComponent } from './home/home.component';
 import { ArtistsComponent, DemoNumber } from './artists/artists.component';
 import { AboutComponent } from './about/about.component';
 
+import {HttpClientModule} from '@angular/common/http';
+import { from } from 'rxjs';
+import { ArttistListContainerComponent } from './arttist-list-container/arttist-list-container.component';
+import { ArtistService } from './artist.service';
+import { ArtViewComponent } from './art-view/art-view.component';
+import { ArtistViewComponent } from './artist-view/artist-view.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,15 +26,19 @@ import { AboutComponent } from './about/about.component';
     ArtistsComponent,
     AboutComponent,
     DemoNumber,
+    ArttistListContainerComponent,
+    ArtViewComponent,
+    ArtistViewComponent,
     //SideNavBarComponent  //first created side nav bar
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ArtistService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

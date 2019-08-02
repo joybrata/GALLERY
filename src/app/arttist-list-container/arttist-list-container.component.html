@@ -1,0 +1,9 @@
+<!-- <p>
+  arttist-list-container works!
+</p> -->
+<div class="list-view">
+  <ul *ngFor="let artist of filterItemsOfType(serKey)">
+    <li (click)="onSelectArtist(artist)">{{artist.artist_name}}</li>
+  </ul>
+</div>
+<!-- {{artist.bio}}     {{artist.art[0].art_name}} -->
