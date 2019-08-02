@@ -4,11 +4,10 @@
 <div class="artist-view-container">
   <ul *ngFor="let artist of artist_data">
     <li *ngIf="artist.artist_name == artist_name" class="artist-view-container-heading">{{artist.artist_name}}</li>
-    <!-- <br><br> -->
+
     <div class="artist-view-container-title" *ngIf="artist.artist_name == artist_name">About</div>
     <li *ngIf="artist.artist_name == artist_name" class="artist-view-container-bio">{{artist.bio}}</li>
 
-    <!-- <br><br> -->
     <div class="artist-view-container-title" *ngIf="artist.artist_name == artist_name">Art works</div>
 
     <div class="thumbnail-container">
@@ -17,8 +16,6 @@
             <img *ngIf="artist.artist_name == artist_name" [src]="art.pic_url" [alt]="art.art_name"  height=300px>
             <li *ngIf="artist.artist_name == artist_name">{{art.art_name}}</li>
         </div>
-        <!-- <img *ngIf="artist.artist_name == artist_name" [src]="art.pic_url" [alt]="art.art_name" (click)="onSelectArt(art)" height=300px>
-        <li *ngIf="artist.artist_name == artist_name">{{art.art_name}}</li> -->
       </ul>
     </div>
 
