@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ArtistService } from '../artist.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-art-view',
@@ -11,7 +11,7 @@ export class ArtViewComponent implements OnInit {
   public art_name;
   public artist_data = [];
 
-  constructor(private _artistService: ArtistService, private router: ActivatedRoute) { }
+  constructor(private _artistService: ArtistService, private router: ActivatedRoute , private next: Router) { }
 
   ngOnInit() {
     this._artistService.getAtrists()
@@ -21,4 +21,7 @@ export class ArtViewComponent implements OnInit {
     this.art_name = artName;
   }
 
+  onSelectArtist(artist) {
+    this.next.navigate(['/artistView', artist.artist_name]);
+  }
 }
