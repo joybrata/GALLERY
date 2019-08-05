@@ -25,5 +25,4 @@ export class ArtistViewComponent implements OnInit {
   onSelectArt(art) {
     this.nextRouter.navigate(['/artView', art.art_name]);
   }
-
 }
