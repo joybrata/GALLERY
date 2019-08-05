@@ -12,22 +12,53 @@
 				"art_name": "Mona Lisa",
 				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/03/Mona_Lisa_by_Leonardo_da_Vinci.jpg",
 				"about_pic": "The Mona Lisa is quite possibly the most well-known piece of painted artwork in the entire world. It was painted by the Leonardo Da Vinci, the famous Italian artist, between 1504 and 1519, and is a half body commission for a woman named Lisa Gherardini. Her husband, Francesco Del Giocondo requested the work by Da Vinci just after the turn of the century. It is perhaps the most studied piece of artwork ever known. The subject’s facial expression has brought about a source of debate for centuries, as her face remains largely enigmatic in the portrait. Originally commissioned in Italy, it is now at home in the French Republic, and hangs on display in the Louvre in Paris."
+      },
+      {
+				"art_name": "The Baptism of Christ",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2011/09/The-Baptism-of-Christ_Andrea-del-Verrocchio.jpg",
+				"about_pic": "The Baptism of Christ is a famous painting made by da Vinci’s master, Andrea del Verrochio at circa 1472 in his studio in Italy. The painting was completed by Verrochio in collaboration with his apprentice, da Vinci who painted and finished the details of some parts of the painting, particularly the angel. The painting was an altarpiece commissioned by the monks of the San Salvi Church near Florence."
+      },
+      {
+				"art_name": "Ginevra de’ Benci",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2011/09/Leonardo_da_Vinci_Ginevra_de_Benci_1474-78.png",
+				"about_pic": "Dated c. 1474, the Leonardo da Vinci painting Ginevra de’ Benci was painted at a time when da Vinci was still an apprentice of Verrochio. The medium used was oil on 42.7 x 37 cm wood. Experts has debated for a long time as to whether it was Leonardo who painted the work, but the genius art can only be done by no other than da Vinci during the time around 1470 – 1480. "
 			}
 		]
   },
   {
-		"artist_name": "Leonardo gbd hf",
-		"bio": "Da Vinci was someone who was skilled and knowledgeable in many, many subjects, including science, mathematics, music, and most importantly, art. He was the epitome of a Renaissance man if there never was one.",
+		"artist_name": "Sandro Botticelli",
+		"bio": "Botticelli was an Italian painter of the Early Renaissance. He hailed from Florence, Italy.",
 		"art": [
 			{
-				"art_name": "TheLastSupper",
-				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/03/DaVinci_Last-Supper.jpg",
-				"about_pic": "The Last Supper is the final meal Christ had with his disciples before he was arrested which ultimately crucified. The scene we are shown is when Christ tells his followers that he is to be betrayed and that he will be leaving them very soon. In the groups of three, we see the reactions from the apostles to the news. From the far left, we have the first group who all look surprised. No doubt, all would be thinking that they would never betray the Messiah. The next group, it is likely that Judas is the one holding what appears to be a bag (perhaps of silver?). Behind him is likely Peter, Jesus’ number one disciple who appears angry at the news. And the other person is likely one of the younger apostles, as he appears to swoon. Many have suggested that this is Mary Magdalene, perhaps inspired by the famous Da Vinci Code book. To the right of Christ, the next group of apostles appears to perhaps be questioning Christ as to the suggestion of betrayal, while the group on the far right is likely discussing loudly regarding the news."
+				"art_name": "Primavera",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/07/Botticelli-primavera.jpg",
+				"about_pic": "The Primavera was painted by Italian artist Sandro Botticelli in c. 1482. This egg tempera wood panel painting is depicted as a famous painting of the western world. It is also a very publicized and debated work of art in the world. Most commentators concur that the painting which depicts figures in a garden is symbolic to the lush spring growth. There have been other meanings which were examined. One such explanation that was entertained is the idea that the piece of art portrays the idealistic love of the Neoplatonicism."
 			},
 			{
-				"art_name": "Mona isa",
-				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/03/Mona_Lisa_by_Leonardo_da_Vinci.jpg",
-				"about_pic": "The Mona Lisa is quite possibly the most well-known piece of painted artwork in the entire world. It was painted by the Leonardo Da Vinci, the famous Italian artist, between 1504 and 1519, and is a half body commission for a woman named Lisa Gherardini. Her husband, Francesco Del Giocondo requested the work by Da Vinci just after the turn of the century. It is perhaps the most studied piece of artwork ever known. The subject’s facial expression has brought about a source of debate for centuries, as her face remains largely enigmatic in the portrait. Originally commissioned in Italy, it is now at home in the French Republic, and hangs on display in the Louvre in Paris."
+				"art_name": "Venus and Mars",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/07/Venus_and_Mars.jpg",
+				"about_pic": "Completed in 1483, Botticelli’s Venus and Mars is one of the more puzzling paintings that tackle a particular subject which was quite popular among Renaissance painters. In Botticelli’s painting, a beautiful and youthful Mars lies asleep, clearly spent."
+			},
+			{
+				"art_name": "Adoration of the Magi",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/07/Botticelli_adoration-of-the-magi.jpg",
+				"about_pic": "The Adoration of the Magi is Sandro Botticelli’s depiction of a famous scene, where the three Magi, or kings, bring gifts of gold, frankincense, and myrrh to lay before a baby Jesus. This was a popular theme among Renaissance painters, and Botticelli’s version dates back to around 1475."
+			},
+			{
+				"art_name": "Cestello Annunciation",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/08/The-Cestello-Annunciation-by-Botticelli.jpg",
+				"about_pic": "Sandro Botticelli was commissioned to produce the The Cestello Annunciation, in 1489, for the Cestello convent in Florence. The painting is thought to depict the moments after Archangel Gabriel’s appearance to Mary, as told in Luke’s gospel, when he informs her of the Holy Ghost’s impending visit."
+			},
+			{
+				"art_name": "The Mystical Nativity",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/07/The_Mystical_Nativity.jpg",
+				"about_pic": "A master of Italian Renaissance art, Alessandro di Mariano di Vanni Fillipepi, better known as Sandro Botticelli created the The Mystical Nativity in 1500-1501. Botticelli apprenticed as a goldsmith at the age of fourteen, for his brother Antonio initially. In 1462, he became an apprentice to Fra Filippo Lippi, an Italian painter, where he learned painting techniques in a more intimate and detailed manner. By 1470, Sandro had his own art workshop. His works are mostly characterized by clear contours of figures, and few strong contrasts of light and shadow. The Mystical Nativity is his only work in which he signed."
+      },
+      {
+				"art_name": "The Birth of Venus",
+				"pic_url": "http://totallyhistory.com/wp-content/uploads/2012/04/Birth-of-Venus-by-Sandro_Botticelli.jpg",
+        "about_pic": "More than 500 years after its creation, The Birth of Venus by Sandro Botticelli is one of the most iconic paintings ever produced, and remains among the most renowned and priceless masterpieces in the world. Painted in 1486, The Birth of Venus has been the subject of endless intellectual speculation and interpretations of meaning. The painting depicts a voluptuous nude female standing gracefully upon a large seashell which appears to emerge onto shore from the ocean. To her left is a male angel floating in the air and clutching a woman in a tight embrace. To the right of the Venus is another woman in flowing garments, appearing to hail the arrival of the “goddess.”"
+
 			}
 		]
   },
