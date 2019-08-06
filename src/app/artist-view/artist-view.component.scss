@@ -39,8 +39,9 @@
         height: 385px;
         width: 240px;
         overflow: hidden;
-        margin-right: 76px;
+        margin-right: 70px;
         cursor: pointer;
+        transition:0.2s ease-out all;
 
         img {
           margin-left: 50%;
@@ -52,6 +53,11 @@
           font-size: 20px;
           font-weight: 0;
         }
+      }
+      .thumbnail:hover {
+        transform:scale(1.05);
+        position:relative;
+        z-index:100;
       }
     }
   }
